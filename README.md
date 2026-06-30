@@ -1,19 +1,52 @@
 # As-Ora
 
-Luxury watch store website for **As-Ora** — Mitrovicë, Kosovë.
+Website for **As-Ora** — luxury watches in Mitrovicë, Kosovë.
 
-## Live site
-
-After GitHub Pages is enabled, the site will be available at:
+## Live link (after setup)
 
 **https://altinald.github.io/As-ora/**
 
-## Enable GitHub Pages
+---
 
-1. Open [Settings → Pages](https://github.com/AltinALD/As-ora/settings/pages)
-2. Under **Build and deployment → Source**, choose **GitHub Actions**
-3. Wait 1–2 minutes for the workflow to finish
+## GitHub Pages is NOT automatic — you must enable it once
 
-## Local preview
+The code is on GitHub, but the website will show **404** until you do this:
 
-Open `index.html` in a browser, or serve the folder with any static server.
+### Step 1 — Open Pages settings
+
+Go to: **https://github.com/AltinALD/As-ora/settings/pages**
+
+### Step 2 — Choose source
+
+Under **Build and deployment**:
+
+| Setting | Value |
+|---------|-------|
+| **Source** | `Deploy from a branch` |
+| **Branch** | `main` |
+| **Folder** | `/ (root)` |
+
+Click **Save**.
+
+### Step 3 — Wait
+
+Wait **1–3 minutes**, then open: **https://altinald.github.io/As-ora/**
+
+The green link also appears on the Pages settings page when it's ready.
+
+---
+
+## Alternative: GitHub Actions
+
+If you prefer Actions instead:
+
+1. Settings → Pages → Source → **GitHub Actions**
+2. Check **Actions** tab for a green checkmark: https://github.com/AltinALD/As-ora/actions
+
+---
+
+## Still 404?
+
+- Make sure repo is **Public** (Settings → General → Danger Zone → Change visibility)
+- Use exact URL: `https://altinald.github.io/As-ora/` (capital **A** in As-ora)
+- Hard refresh: `Ctrl + Shift + R`
